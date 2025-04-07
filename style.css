@@ -1,0 +1,103 @@
+body{
+    margin: 0px;
+    padding: 2px;
+    background-color: rgb(63, 62, 62);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img{
+    width: 300px;
+    height: 200px;
+}
+
+#navbar{
+    align-items: center;
+    justify-content: center;
+    border-color: rgb(15, 211, 15);
+    border-style: solid;
+    margin: 6px;
+    padding: 10px;
+    text-align: center;
+    color: rgb(251, 255, 0);
+    background-color: rgb(14, 221, 24);
+}
+
+h1,h3,p {
+    color: #161815;
+}
+
+#Noble {
+
+    text-align: center;
+    border-color: #a6ff00;
+    border-style: solid;
+    margin: 7px;
+
+}
+
+#Noble {
+    
+    margin: 6px;
+    padding: 10px;
+    text-align: center;
+    color: rgb(2, 190, 33);
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+    background-color: rgb(94, 94, 94);
+    justify-content: space-between;
+}
+
+.Noble_Team {
+    border-color: rgb(238, 255, 0);
+    border-style: solid;
+    padding: 10px;
+    background-color: rgb(97, 97, 97);
+    flex: 0 1 calc(33.33% - 20px);
+    box-sizing: border-box;
+
+}
+
+#viloesinfo {
+    text-align: center;
+    border-color: #ff6600;
+    border-style: solid;
+    margin: 6px;
+}
+
+h2{
+    color: rgb(255, 255, 255);
+}
+
+# {
+    margin: 6px;
+    padding: 10px;
+    text-align: center;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+    background-color: rgba(216, 4, 4, 0.658);
+    justify-content: space-between;
+
+}
+
+.viloes{
+    border-color: rgb(255, 145, 0);
+    border-style: solid;
+    padding: 10px;
+    background-color: rgb(68, 68, 68);
+    flex: 0 1 calc(33.33% - 20px);
+    box-sizing: border-box;
+}
+
+
+#rodape{
+    text-align: center;
+    color: rgb(214, 252, 0);
+    background-color: rgb(82, 82, 82);
+    
+}
