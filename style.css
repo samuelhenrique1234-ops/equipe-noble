@@ -1,6 +1,6 @@
 body{
-    margin: 0px;
-    padding: 0px;
+    margin: 10px;
+    padding: 15px;
     background-color: rgb(0, 0, 0);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -17,6 +17,18 @@ img{
     margin: 5px;
     padding:10px;
     background-color: rgb(4, 105, 172);
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    max-width: 100px;
+    width: 100%;
+}
+
+#logo img {
+    width: 100%;
+    height: auto;
 }
 
 h1,h3,p {
@@ -29,19 +41,20 @@ h1,h3,p {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 15px;
     background-color: rgb(0, 0, 0);
     text-align: center;
     border-color: #f7f7f7;
     border-style: solid;
-    margin: 7px;
+    margin: 5px;
     justify-content: space-between;
 }
 
 .noble {
     border-color: #ffffff;
     border-style: solid;
-    padding: 6px;
+    padding: 5px;
+    margin: 5px;
     background-color: rgb(4, 105, 172);
     flex: 0 1 calc(33.33% - 20px);
     box-sizing: border-box;
@@ -49,10 +62,21 @@ h1,h3,p {
 }
 
 #rodape{
+    display:flex;
     text-align: left;
     background-color: rgb(4, 105, 172);
     border-color: #ffffff;
     border-style: solid;
     padding: 0px;
-    margin: 0px;
+    margin: 5px;
+}
+
+#Unsc-logo {
+    max-width: 50px;
+    width: 100%;
+}
+
+#Unsc-logo img {
+    width: 100%;
+    height: auto;
 }
